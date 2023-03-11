@@ -1,9 +1,8 @@
 #include "ft_printf.h"
+#include <stdio.h>
 int	main(void)
 {
-	char	*p;
-
-	p = "yassube";
-	ft_printf("%p\n", p);
-	printf("%p\n", p);
+	printf("%d\n", ft_printf("%d\n", 12));
+	printf("%d\n", printf("%d\n", 12));
+	// printf("%p\n", p);
 }
